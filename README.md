@@ -15,4 +15,4 @@ El curso tiene contenidos de programacion orientados al lenguaje c++ y constara 
 > 3. UNIDAD 3: Funciones
 > 4. UNIDAD 4: Archivos y arreglos
 
-Las carpetas tendran un **_READ.ME_** el cual describira cada unidad y los archivos realizados en cumplimiento a los objetivos
+Las carpetas tendran un **_README.md_** el cual describira cada unidad y los archivos realizados en cumplimiento a los objetivos
