@@ -16,3 +16,39 @@ El curso tiene contenidos de programacion orientados al lenguaje c++ y constara 
 > 4. UNIDAD 4: Archivos y arreglos
 
 Las carpetas tendran un **_README.md_** el cual describira cada unidad y los archivos realizados en cumplimiento a los objetivos
+
+### TABLA DE PONDERACION DE UNIDADES
+
+<table class= "default" align="center">
+<tr>
+  <th>UNIDADES</th>
+  <th>TAREAS</th>
+  <th>TRABAJOS</th>
+  <th>EXAMEN</th>
+ </tr>
+ <tr>
+  <td>Unidad 1</td>
+  <td align="center">--</td>
+  <td align="center">--</td>
+  <td align="center">--</td>
+ </tr>
+  <tr>
+  <td>Unidad 2</td>
+  <td align="center">--</td>
+  <td align="center">--</td>
+  <td align="center">--</td>
+ </tr>
+<tr>
+  <td>Unidad 3</td>
+  <td align="center">--</td>
+  <td align="center">--</td>
+  <td align="center">--</td>
+ </tr>
+ <tr>
+  <td>Unidad 4</td>
+  <td align="center">--</td>
+  <td align="center">--</td>
+  <td align="center">--</td>
+ </tr>
+ </table>
+ 
