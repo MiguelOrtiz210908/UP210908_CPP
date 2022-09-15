@@ -16,7 +16,7 @@ Last modification: --
 int main(){
 
     //Print on screen a text
-    std:: cout<<"Hello world! This is my first program";
+    std::cout<<"Hello world! This is my first program";
 
     //Return 0 means that the program ends succesfully
     return 0;
