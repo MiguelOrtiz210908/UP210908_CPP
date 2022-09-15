@@ -6,7 +6,7 @@
 El curso tiene contenidos de programacion orientados al lenguaje c++ y constara de 4 unidades que se podran visualizar despues del gallo
 
 <div align="center">
-<img src= "imagenes/imagen.jpeg" width=300 height=300>
+<img src= "imagenes/logo.jpg" width=300 height=300>
 </div>
 
 ## UNIDADES Y SUS CONTENIDOS
