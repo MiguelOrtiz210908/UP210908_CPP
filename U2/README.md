@@ -67,5 +67,5 @@
 ## Tests with all cases
 ### 1. Tax when: rent < $10,000
 <div align="center">
-<img src= "../imagenes/Imagen5%.jpg">
+<img src= "../imagenes/Imagen%5.jpg">
 </div>
