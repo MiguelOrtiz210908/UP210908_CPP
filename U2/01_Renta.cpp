@@ -17,7 +17,7 @@
         cout<<"Ingrese la cantidad de renta mensual: ";
         cin>>renta;
 
-        //---------Condicionales e impresion de resultados----------
+    //---------Condicionales e impresion de resultados----------
 
     
         if(renta<10000){
