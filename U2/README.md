@@ -65,3 +65,5 @@
 5. Print the tax rate and its equivalent in dollars. 
 
 ## Tests with all cases
+### 1. Tax when: rent < $10,000
+
