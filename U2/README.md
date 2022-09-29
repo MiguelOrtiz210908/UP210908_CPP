@@ -1,22 +1,22 @@
 # Exercise 1- Program that shows the user the corresponding tax rate based on their annual rent
 ## Section for tax selection (c++ code).
-    c++
+```c++
     //-----------Libreria--------------
     #include <iostream>
     using namespace std;
 
     int main(){
 
-    //------------Declaracion de variables---------
+    //------------Declaration of variables---------
         int renta, descuento, num;
         cout<<"Ingrese la cantidad de renta mensual: ";
         cin>>renta;
 
-    //-----------Condicionales e impresion de resultados----------
+    //-----------Conditionals and printing of results----------
 
     
         if(renta<10000){
-    //------------Operacion del calculo de descuento-------
+    //------------Desc calculation operation-------
             descuento= (renta/100)*5;
             num=5;
             
@@ -50,6 +50,7 @@
         
         return 0;
     }
+```    
 ## Explanation of the code function.
 1. Ask the user for his annual rent.
 2. Check that the user entered a valid rent.   
