@@ -1,7 +1,7 @@
 # Exercise 1- Program that shows the user the corresponding tax rate based on their annual rent
 ## Section for tax selection (c++ code).
 ```c++
-    //-----------Libreria--------------
+    //-----------Instanced Libraries--------------
     #include <iostream>
     using namespace std;
 
