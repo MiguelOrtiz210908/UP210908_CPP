@@ -10,11 +10,13 @@ El curso tiene contenidos de programacion orientados al lenguaje c++ y constara 
 </div>
 
 ## UNIDADES Y SUS CONTENIDOS
-<a href="https://github.com/UP210908/UP210908_CPP/tree/main/U1">UNIDAD 1: Introduccion a la programacion</a>
-> 2. UNIDAD 2: Estructuras y ciclos de control
-> 3. UNIDAD 3: Funciones
-> 4. UNIDAD 4: Archivos y arreglos
-
+<ol>
+<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U1">UNIDAD 1: Introduccion a la programacion</a>
+<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U2">UNIDAD 2: Estructuras y ciclos de control</a>
+<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U3">UNIDAD 3: Funciones</a>
+<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U1">UNIDAD 4: Archivos y arreglos</a>
+</ol>
+  
 Las carpetas tendran un **_README.md_** el cual describira cada unidad y los archivos realizados en cumplimiento a los objetivos
 
 ### TABLA DE PONDERACION DE UNIDADES
