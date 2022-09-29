@@ -41,7 +41,7 @@
             descuento= (renta/100)*45;
             num=45;
         }
-
+//------Printing results-----------
         cout<<"\n";
         cout<<"El descuento aplicado a tu total es del: "<<num<<"%";
         cout<<"\n";
