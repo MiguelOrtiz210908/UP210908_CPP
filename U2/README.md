@@ -67,5 +67,25 @@
 ## Tests with all cases
 ### 1. Tax when: rent < $10,000
 <div align="center">
-<img src= "../imagenes/Imagen%5.jpg">
+<img src="UP210908_CPP/../../imagenes/imagen01.jpeg"/>
+</div>
+
+### 2. Tax when: rent >= $10,000 and < $20,000
+<div align="center">
+<img src="UP210908_CPP/../../imagenes/imagen02.jpeg"/>
+</div>
+
+### 3. Tax when: rent >= $20,000 and < $35,000
+<div align="center">
+<img src="UP210908_CPP/../../imagenes/imagen_03.jpeg"/>
+</div>
+
+### 4. Tax when: rent >= $35,000 and < $60,000
+<div align="center">
+<img src="UP210908_CPP/../../imagenes/imagen_04.jpeg"/>
+</div>
+
+### 5. Tax when: rent >= $60,000
+<div align="center">
+<img src="UP210908_CPP/../../imagenes/imagen_05.jpeg"/>
 </div>
