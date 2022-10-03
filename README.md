@@ -1,56 +1,80 @@
 
 # UP210908_CPP
-## **REPOSITORIO DE PROGRAMACION**
+## **PROGRAMMING REPOSITORY**
 ### _Miguel Angel Ortiz_
 
-El curso tiene contenidos de programacion orientados al lenguaje c++ y constara de 4 unidades que se podran visualizar despues del gallo
+The course has programming content oriented to the c++ language and will consist of 4 units
 
 <div align="center">
 <img src= "imagenes/logo.jpg" width=750 height=300>
 </div>
 
-## UNIDADES Y SUS CONTENIDOS
+## UNITS AND THEIR CONTENTS
 <ol>
-<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U1">UNIDAD 1: Introduccion a la programacion</a>
-<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U2">UNIDAD 2: Estructuras y ciclos de control</a>
-<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U3">UNIDAD 3: Funciones</a>
-<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U4">UNIDAD 4: Archivos y arreglos</a>
+<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U1">UNIT 1: Introduction to programming</a>
+<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U2">UNIT 2: Structures and control cycles</a>
+<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U3">UNIT 3: Functions</a>
+<li><a href="https://github.com/UP210908/UP210908_CPP/tree/main/U4">UNIT 4: Files and arrangements</a>
 </ol>
   
-Las carpetas tendran un **_README.md_** el cual describira cada unidad y los archivos realizados en cumplimiento a los objetivos
+The folders will have a **_README.md_** which will describe each unit and the files made in compliance with the objectives
 
-### TABLA DE PONDERACION DE UNIDADES
+### UNIT WEIGHTING TABLE
 
-<table class= "default" align="center">
-<tr>
-  <th>UNIDADES</th>
-  <th>TAREAS</th>
-  <th>TRABAJOS</th>
-  <th>EXAMEN</th>
- </tr>
- <tr>
-  <td>Unidad 1</td>
-  <td align="center">--</td>
-  <td align="center">--</td>
-  <td align="center">--</td>
- </tr>
+<table class="default", align="center">
+<thead>
   <tr>
-  <td>Unidad 2</td>
-  <td align="center">--</td>
-  <td align="center">--</td>
-  <td align="center">--</td>
- </tr>
-<tr>
-  <td>Unidad 3</td>
-  <td align="center">--</td>
-  <td align="center">--</td>
-  <td align="center">--</td>
- </tr>
- <tr>
-  <td>Unidad 4</td>
-  <td align="center">--</td>
-  <td align="center">--</td>
-  <td align="center">--</td>
- </tr>
- </table>
+    <th class="tg-c3ow">Unit</th>
+    <th class="tg-c3ow">Name</th>
+    <th class="tg-c3ow">Evidence</th>
+    <th class="tg-c3ow">Alloted Percentage</th>
+    <th class="tg-c3ow">Total</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c3ow">U1</td>
+    <td class="tg-c3ow">Programming introduction</td>
+    <td class="tg-c3ow">U1EP1</td>
+    <td class="tg-c3ow">100%</td>
+    <td class="tg-c3ow">10%</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="2">U2</td>
+    <td class="tg-c3ow" rowspan="2">Control structures and cycles</td>
+    <td class="tg-c3ow">U2EC1</td>
+    <td class="tg-c3ow">50%</td>
+    <td class="tg-c3ow" rowspan="2">30%</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">U2EP1</td>
+    <td class="tg-c3ow">50%</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow" rowspan="2">U3</td>
+    <td class="tg-c3ow" rowspan="2">Functions</td>
+    <td class="tg-c3ow">U3EC1</td>
+    <td class="tg-c3ow">50%</td>
+    <td class="tg-c3ow" rowspan="2">30%</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">U3EP1</td>
+    <td class="tg-c3ow">50%</td>
+  </tr>
+   <tr>
+    <td class="tg-c3ow" rowspan="2">U4</td>
+    <td class="tg-c3ow" rowspan="2"> Files and arrays</td>
+    <td class="tg-c3ow">U4EC1</td>
+    <td class="tg-c3ow">50%</td>
+    <td class="tg-c3ow" rowspan="2">30%</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">U4EP1</td>
+    <td class="tg-c3ow">50%</td>
+  </tr>
+</tbody>
+</table>
+
+If you want clone this repo, you should paste or type this command on your console
+>         git clone https://github.com/UP210908/UP210908_CPP.git
  
