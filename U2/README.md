@@ -1,5 +1,6 @@
 # Exercise 1- Program that shows the user the corresponding tax rate based on their annual rent
 ## Section for tax selection (c++ code).
+### Input
 ```c++
     //-----------Instanced Libraries--------------
     #include <iostream>
@@ -11,7 +12,9 @@
         int renta, descuento, num;
         cout<<"Ingrese la cantidad de renta mensual: ";
         cin>>renta;
-
+```
+### Process
+```c++
     //-----------Conditionals and printing of results----------
 
     
@@ -41,6 +44,9 @@
             descuento= (renta/100)*45;
             num=45;
         }
+ ```
+ ### Output
+ ```c++
 //------Printing results-----------
         cout<<"\n";
         cout<<"El descuento aplicado a tu total es del: "<<num<<"%";
@@ -52,6 +58,7 @@
     }
 ```    
 ## Explanation of the code function.
+
 1. Ask the user for his annual rent.
 2. Check that the user entered a valid rent.   
 2.1 If the user does not enter a valid rent, print a message that the user entered an incorrect number.  
@@ -66,27 +73,100 @@
 5. Print the tax rate and its equivalent in dollars. 
 
 ## Tests with all cases
-### 1. Tax when: rent < $10,000
-<div align="center">
-<img src="UP210908_CPP/../../imagenes/imagen01.jpeg"/>
-</div>
+<ol>
+<li>Tax when: rent < $10,000
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagen01.jpeg"/>
+    </div>
+<li>Tax when: rent >= $10,000 and < $20,000
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagen02.jpeg"/>
+    </div>
+<li>Tax when: rent >= $20,000 and < $35,000
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagen_03.jpeg"/>
+    </div>
+<li>Tax when: rent >= $35,000 and < $60,000
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagen_04.jpeg"/>
+    </div>
+<li>Tax when: rent >= $60,000
+    <div align="center">
+     <img src="UP210908_CPP/../../imagenes/imagen_05.jpeg"/>
+     </div>
+</ol>
 
-### 2. Tax when: rent >= $10,000 and < $20,000
-<div align="center">
-<img src="UP210908_CPP/../../imagenes/imagen02.jpeg"/>
-</div>
+<br>
+<br>
 
-### 3. Tax when: rent >= $20,000 and < $35,000
-<div align="center">
-<img src="UP210908_CPP/../../imagenes/imagen_03.jpeg"/>
-</div>
+# Exercise 2: Benefits (Based on user score)
+## Code Section (c++ code)
+### Input structure
+```c++
+      #include <iostream>
 
-### 4. Tax when: rent >= $35,000 and < $60,000
-<div align="center">
-<img src="UP210908_CPP/../../imagenes/imagen_04.jpeg"/>
-</div>
+      using namespace std;
 
-### 5. Tax when: rent >= $60,000
-<div align="center">
-<img src="UP210908_CPP/../../imagenes/imagen_05.jpeg"/>
-</div>
+      int main(){
+
+            double puntuacion, total, puntuacion1, bandera=1;
+
+            cout<<"Ingresa el procentaje de tu puntuacion: ";
+            cin>>puntuacion;
+```
+### Process structure
+```c++
+      puntuacion1= puntuacion/100;
+      total= puntuacion1*2400;
+
+      if(puntuacion1==0.0){
+          cout<<"Calificacion: Inaceptable";
+      
+      }
+      else if(puntuacion1==0.4){
+          cout<<"Calificacion: Aceptable";
+    
+      }
+      else if(puntuacion1>=0.6){
+          cout<<"Calificacion: Merito";
+        
+       
+      }
+      else{
+          cout<<"Esta calificacion no esta aceptada por el sistema";
+          cout<<"\n";
+          bandera=0;
+      }
+```
+### Output structure
+```c++
+      cout<<"\n";
+
+      if(bandera==1){
+          cout<<"Tu bono es igual a: $"<<total;
+          cout<<"\n";
+          cout<<"Con un porcentaje del: "<<puntuacion<<"%"; 
+          cout<<"\n";  
+      }
+
+    
+     }
+```
+## Explanation of the code function
+The program consists of granting a bonus to employees according to their performance. Performance is considered in three scores that are 0.0, 0.4, 0.6 or more where:
+<ol type="a">
+<li>The 0.0 rating is unacceptable and the bonus is 0%.
+<li>The score of 0.4 is acceptable and the bonus is 40%.
+<li>The score of 0.6 or more is merit and the bonus is 60% or more depending on the score.
+</ol>
+
+Any amount entered other than those already mentioned will be rejected.
+
+## Test with all cases
+
+<ol>
+<li>
+
+</ol>
+
+      
