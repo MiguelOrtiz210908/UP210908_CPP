@@ -165,8 +165,22 @@ Any amount entered other than those already mentioned will be rejected.
 ## Test with all cases
 
 <ol>
-<li>
-
+<li>When the score percentage is equal to 0
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenben01.jpg"/>
+    </div>
+<li>When the score percentage is equal to 40
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenben02.jpg"/>
+    </div>
+<li>When the score percentage is equal to 60 or more
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenben03.jpg"/>
+    </div>
+<li>When the user enters an unaccepted value
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenben04.jpg"/>
+    </div>
 </ol>
 
       
