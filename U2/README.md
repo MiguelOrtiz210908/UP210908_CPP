@@ -183,4 +183,80 @@ Any amount entered other than those already mentioned will be rejected.
     </div>
 </ol>
 
-      
+<br>
+<br>
+
+# Exercise 3: Price (The assigned price depends on your age.)
+## Code section (c++ code)
+### Input structure
+```c++
+      #include <iostream>
+
+      using namespace std;
+
+      int main(){
+
+      //-----Variable declaration-----
+      int edad, pago;
+
+      //-----Data entry-----
+
+      cout<<"Bienvenido a Game Zone\n";
+      cout<<"Ingresa tu edad: ";
+      cin>>edad;
+      cout<<"\n";     
+```
+### Process structure
+```c++
+      //-----Procces-----    
+
+      if(edad>=0 && edad<4){
+          pago=0;
+          cout<<"Tu entrada es gratuita"<<endl;
+      }
+      else if(edad>=4 && edad<=18){
+          pago=5;
+      }
+      else if(edad>18){
+          pago=10;
+      }
+      else{
+          cout<<"El valor ingresado es erroneo"<<endl;
+      }
+```
+### Output structure
+```c++
+     cout<<"Tu entrada tendra un valor de $"<<pago<<".00";
+     cout<<"\n";
+  }
+```
+## Explanation of the code function
+The program works by granting the user a special price depending on their age:
+<ol type= "a">
+<li>The program asks the age of the user
+<li>The program gives you the value of your ticket
+<li>If the age of the person is less than 4, the entrance is free
+<li>If the age of the person is over 4 and under 18, the ticket will have a value of $5.00 MXN
+<li>If the age is greater than 18, the ticket will have a value of $10.00 MXN
+</ol>
+
+## Test with all cases
+
+<ol>
+<li>When the score percentage is equal to 0
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenben01.jpg"/>
+    </div>
+<li>When the score percentage is equal to 40
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenben02.jpg"/>
+    </div>
+<li>When the score percentage is equal to 60 or more
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenben03.jpg"/>
+    </div>
+<li>When the user enters an unaccepted value
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenben04.jpg"/>
+    </div>
+</ol>
