@@ -239,24 +239,115 @@ The program works by granting the user a special price depending on their age:
 <li>If the age of the person is over 4 and under 18, the ticket will have a value of $5.00 MXN
 <li>If the age is greater than 18, the ticket will have a value of $10.00 MXN
 </ol>
-
 ## Test with all cases
 
 <ol>
-<li>When the score percentage is equal to 0
+<li>Value of the ticket when age is less than 4
     <div align="center">
-    <img src="UP210908_CPP/../../imagenes/imagenben01.jpg"/>
+    <img src="UP210908_CPP/../../imagenes/imagened1.jpg"/>
     </div>
-<li>When the score percentage is equal to 40
+<li>Value of the ticket when the age is greater than 4 years and less than 18
     <div align="center">
-    <img src="UP210908_CPP/../../imagenes/imagenben02.jpg"/>
+    <img src="UP210908_CPP/../../imagenes/imagened2.jpg"/>
     </div>
-<li>When the score percentage is equal to 60 or more
+<li>Value of the ticket when the age is over 18 years
     <div align="center">
-    <img src="UP210908_CPP/../../imagenes/imagenben03.jpg"/>
+    <img src="UP210908_CPP/../../imagenes/imagened3.jpg"/>
     </div>
-<li>When the user enters an unaccepted value
+</ol>
+
+<br>
+<br>
+
+# Exercise 4: Pizza (Menu for customer choice)
+## Code section (c++ code)
+### Input structure
+```c++
+      #include <iostream>
+
+      using namespace std;
+
+      int main(){
+
+          int opcionPizza, opcionIngrediente;
+          char muestra[40];
+
+          cout<<"Bienvenido a Pizza Hot\n";
+          cout<<"Selecciona la pizza que deseas: \n Opcion | Pizza \n---------------\n  1     | Vegetariana\n  2     | No vegetariana\nOpcion: ";
+          cin>>opcionPizza;     
+```
+### Process and output structure 
+```c++
+          if(opcionPizza == 1){
+          cout<<"Selecciona el ingrediente de tu pizza: ";
+          cout<<"\n1. Pimiento\n2. Tofu\nOpcion: ";
+          cin>>opcionIngrediente;
+          if(opcionIngrediente==1){
+              cout<<"Tu pizza es Vegetariana con Pimiento"<<endl;
+          }
+          else if(opcionIngrediente==2){
+              cout<<"Tu pizza es Vegetariana con Tofu"<<endl;
+          }
+
+          }
+          else if(opcionPizza == 2){
+              cout<<"Selecciona el ingrediente de tu pizza: ";
+              cout<<"\n1. Peperoni\n2. Jamon\n3. Salmon\nOpcion: ";
+              cin>>opcionIngrediente;
+              if(opcionIngrediente==1){
+                  cout<<"Tu pizza es no Vegetariana con Pepperoni"<<endl;
+              }
+          else if(opcionIngrediente==2){
+              cout<<"Tu pizza es no Vegetariana con Jamon"<<endl;
+          }
+          else if(opcionIngrediente==3){
+              cout<<"Tu pizza es no Vegetariana con Salmon"<<endl;
+          }
+          cout<<"\n";
+          cout<<"\n";
+      }
+
+
+
+     }
+```
+## Explanation of the code function
+The program works based on a menu that is shown to the user, who will be able to choose between the options offered to finally show him his order:
+<ol type= "a">
+<li>The program displays the menu that can be manipulated based on the numbered options.
+<li>Depending on the previous option, another menu will be displayed with the ingredients.
+<li>The program will display as a result a description of the pizza and the selected ingredients.
+</ol>
+
+## Test with all cases
+For the vegetarian pizza
+<ol>
+<li>The selection menu is displayed.
     <div align="center">
-    <img src="UP210908_CPP/../../imagenes/imagenben04.jpg"/>
+    <img src="UP210908_CPP/../../imagenes/pizzav1.jpg"/>
+    </div>
+<li>The ingredients menu is displayed immediately.
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/pizzav2.jpg"/>
+    </div>
+<li>Product description as a result
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/pizzav3.jpg"/>
+    </div>
+</ol>
+
+For the not vegetarian pizza
+<ol>
+<li>The selection menu is displayed.
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/pizzanv1.jpg"/>
+    </div>
+<li>The ingredients menu is displayed immediately.
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/pizzanv2.jpg"/>
+    </div>
+<li>Product description as a result
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/pizzanv3.jpg"/>
     </div>
 </ol>
