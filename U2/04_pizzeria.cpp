@@ -22,10 +22,10 @@ int main(){
         cout<<"\n1. Pimiento\n2. Tofu\nOpcion: ";
         cin>>opcionIngrediente;
         if(opcionIngrediente==1){
-            cout<<"Tu pizza es Vegetariana con Pimiento";
+            cout<<"Tu pizza es Vegetariana con Pimiento"<<endl;
         }
         else if(opcionIngrediente==2){
-            cout<<"Tu pizza es Vegetariana con Tofu";
+            cout<<"Tu pizza es Vegetariana con Tofu"<<endl;
         }
 
     }
@@ -34,13 +34,13 @@ int main(){
         cout<<"\n1. Peperoni\n2. Jamon\n3. Salmon\nOpcion: ";
         cin>>opcionIngrediente;
         if(opcionIngrediente==1){
-            cout<<"Tu pizza es no Vegetariana con Pepperoni";
+            cout<<"Tu pizza es no Vegetariana con Pepperoni"<<endl;
         }
         else if(opcionIngrediente==2){
-            cout<<"Tu pizza es no Vegetariana con Jamon";
+            cout<<"Tu pizza es no Vegetariana con Jamon"<<endl;
         }
         else if(opcionIngrediente==3){
-            cout<<"Tu pizza es no Vegetariana con Salmon";
+            cout<<"Tu pizza es no Vegetariana con Salmon"<<endl;
         }
         cout<<"\n";
         cout<<"\n";
