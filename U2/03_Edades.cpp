@@ -25,7 +25,7 @@ int main(){
 
     if(edad>=0 && edad<4){
         pago=0;
-        cout<<"Tu entrada es gratuita";
+        cout<<"Tu entrada es gratuita"<<endl;
     }
     else if(edad>=4 && edad<=18){
         pago=5;
@@ -34,7 +34,7 @@ int main(){
         pago=10;
     }
     else{
-        cout<<"El valor ingresado es erroneo";
+        cout<<"El valor ingresado es erroneo"<<endl;
     }
 
     cout<<"Tu entrada tendra un valor de $"<<pago<<".00";
