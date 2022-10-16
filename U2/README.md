@@ -355,7 +355,7 @@ For the not vegetarian pizza
 <br>
 <br>
 
-# Exercise 5: Maximum, minimum and average temperature, depending on what the user enters
+# Exercise 5: Temperature (Maximum, minimum and average temperature, depending on what the user enters)
 ## Code section (c++ code)
 ### Input structure
 ```c++
@@ -414,5 +414,60 @@ The program works by asking the user to enter temperatures, the user will have t
 <li>Single case
     <div align="center">
     <img src="UP210908_CPP/../../imagenes/imagentem.jpg"/>
+    </div>
+</ol>
+
+<br>
+<br>
+
+# Exercise 6: Products (calculates the total based on the quantity of product by the price of each product)
+## Code section (c++ code)
+### Input structure
+```c++
+      #include<iostream>
+
+      using namespace std;
+
+      int main(){
+          float CantProductos=0;
+          float precio=0, suma=0, total=0;
+          do{
+              cout<<"Digite la cantidad de productos: ";
+              cin>>CantProductos;     
+```
+### Process structure
+```c++
+              if(CantProductos==0){
+                  break;
+              }
+
+              cout<<"Digite el precio del producto: ";
+              cin>>precio;
+              suma=CantProductos*precio;
+              total+=suma;
+
+          }while(CantProductos !=0);
+```
+### Output structure
+```c++
+       cout<<"\nFinalizando tu factura...";
+       cout<<"\nEL total de tu factura es de: "<<total<<endl;
+}     
+  
+```
+## Explanation of the code function
+The program works based on a multiplication of quantity of products and price
+<ol>
+<li>The program asks the user to enter the number of products and the price of these
+<li>By giving ENTER the program will save the total in a variable that will be added during the entry process
+<li>The program will stop when it detects a zero as input
+<li>The program will display the result of the addition
+</ol>
+
+## Tests with all cases
+<ol>
+<li>Single case
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagentpr.jpg"/>
     </div>
 </ol>
