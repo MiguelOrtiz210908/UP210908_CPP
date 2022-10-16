@@ -413,6 +413,6 @@ The program works by asking the user to enter temperatures, the user will have t
 <ol>
 <li>Single case
     <div align="center">
-    <img src="UP210908_CPP/../../imagenes/imagen01.jpeg"/>
+    <img src="UP210908_CPP/../../imagenes/imagentem.jpg"/>
     </div>
 </ol>
