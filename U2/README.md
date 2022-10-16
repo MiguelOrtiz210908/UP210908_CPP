@@ -351,3 +351,68 @@ For the not vegetarian pizza
     <img src="UP210908_CPP/../../imagenes/pizzanv3.jpg"/>
     </div>
 </ol>
+
+<br>
+<br>
+
+# Exercise 5: Maximum, minimum and average temperature, depending on what the user enters
+## Code section (c++ code)
+### Input structure
+```c++
+      #include <iostream>
+
+      using namespace std;
+
+
+
+      int main(){
+          //----Declaracion de variables----
+          float temperatura=0,promedio=0,temperaturaAcum=0, mayor, menor, comparadormax;
+          int cont=1, comparadormin;
+
+      //----inicio del ciclo----
+          do{
+              cont++;
+              cout<<"Ingrese la temperatura:";
+              cin>>temperatura;     
+```
+### Process structure
+```c++
+              temperaturaAcum+=temperatura;
+              menor=temperatura;
+              mayor=temperatura;
+              //----Comparador del numero menor----
+
+              if(menor<=comparadormin){
+                  comparadormin=menor;
+              }
+              //----Comparador del numero mayor----
+              if(mayor>comparadormax){
+                  comparadormax=mayor;
+              }
+
+          //----Fin del ciclo----
+          }while(cont<=6);
+          //----Operacion del promedio----
+          promedio=temperaturaAcum/6;
+```
+### Output structure
+```c++
+        //----Impresion de resultados
+        cout<<"\nEl promedio es igual a:"<<promedio;
+        cout<<"\nLa temperatura menor es:"<<comparadormin;
+        cout<<"\nLa temperatura mayor es:"<<comparadormax;
+        cout<<"\n";
+  }
+```
+## Explanation of the code function
+
+The program works by asking the user to enter temperatures, the user will have to enter the temperatures 6 times and the program will take care of calculating the highest temperature entered, the lowest and an average of all and will display them as output.
+
+## Tests with all cases
+<ol>
+<li>Single case
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagen01.jpeg"/>
+    </div>
+</ol>
