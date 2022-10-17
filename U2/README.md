@@ -530,14 +530,10 @@ The program asks the user for a decimal number and gives its conversion to binar
     <div align="center">
     <img src="UP210908_CPP/../../imagenes/imagenbin1.jpg"/>
     </div>
-</ol>
-<ol>
 <li>when the number is equal to zero
     <div align="center">
     <img src="UP210908_CPP/../../imagenes/imagenbin2.jpg"/>
     </div>
-</ol>
-<ol>
 <li>when the number is a positive integer
     <div align="center">
     <img src="UP210908_CPP/../../imagenes/imagenbin3.jpg"/>
