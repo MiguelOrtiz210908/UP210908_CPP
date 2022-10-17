@@ -468,6 +468,78 @@ The program works based on a multiplication of quantity of products and price
 <ol>
 <li>Single case
     <div align="center">
-    <img src="UP210908_CPP/../../imagenes/imagentpr.jpg"/>
+    <img src="UP210908_CPP/../../imagenes/imagenpr.jpg"/>
+    </div>
+</ol>
+
+# Exercise 7: Decymal to binary (The program performs a conversion from a decimal number to a binary number)
+## Code section (c++ code)
+### Input structure
+```c++
+      #include<iostream>
+
+      using namespace std;
+
+      int main(){
+          int num;
+          string  resultado;
+
+          do{
+              cout<<"Ingrese el numero a convertir: ";
+              cin>>num;    
+```
+### Process and Ouput structure
+```c++
+               if(num>0){
+                  cout<<"Mayor a cero"<<endl;
+                  while(num!=0){
+                      if(num%2==0){
+                          resultado='0'+resultado;
+                      }
+                   else{
+                          resultado = '1' + resultado;
+                      }
+
+                      num/=2;
+        
+              }
+              }
+              else if(num==0){
+              resultado='0';
+              }
+              else{
+                  cout<<"Menor a cero"<<endl;
+              }
+          }while(num<0);
+          cout<<"El resultado a binario es: "<<resultado<<endl;
+      } 
+  
+```
+## Explanation of the code function
+The program asks the user for a decimal number and gives its conversion to binary
+<ol>
+<li>The program asks for a decimal number greater than zero
+<li>If the number is less than zero, the program will return a message
+<li>If the number is equal to zero, the program ends and returns a zero as the result
+<li>When the number is a positive integer, the program will do the conversion process until it reaches zero to give the result
+</ol>
+
+## Tests with all cases
+<ol>
+<li>when the number is less than zero
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenbin1.jpg"/>
+    </div>
+</ol>
+<ol>
+<li>when the number is equal to zero
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenbin2.jpg"/>
+    </div>
+</ol>
+<ol>
+<li>when the number is a positive integer
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagenbin3.jpg"/>
     </div>
 </ol>
