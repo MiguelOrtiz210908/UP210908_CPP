@@ -31,11 +31,11 @@ int main(){
         }
         }
         else if(num==0){
-            cout<<"0"<<endl;
+            resultado='0';
         }
         else{
             cout<<"Menor a cero"<<endl;
         }
     }while(num<0);
-    cout<<resultado<<endl;
+    cout<<"El resultado a binario es: "<<resultado<<endl;
 }
