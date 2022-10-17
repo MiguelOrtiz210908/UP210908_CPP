@@ -539,3 +539,54 @@ The program asks the user for a decimal number and gives its conversion to binar
     <img src="UP210908_CPP/../../imagenes/imagenbin3.jpg"/>
     </div>
 </ol>
+
+<br>
+<br>
+
+# Exercise 8: Multiplication tables(Printout of a multiplication table)
+## Code section (c++ code)
+### Input structure
+```c++
+      include<iostream>
+
+      using namespace std;
+
+      int main(){
+          int numero, lon, tot;
+
+          cout<<"Ingresa el numero de la tabla: ";
+          cin>>numero;
+          cout<<"Ingresa la longitud de la tabla: ";
+          cin>>lon;    
+```
+### Process and Ouput structure
+```c++
+          cout<<"|";
+          for(int i=0; i<=lon; i++){
+              for(int j=0; j<=38; j++){
+                  cout<<"-";
+              }
+              cout<<"|"<<endl;
+              tot=numero*i;
+              cout<<"|"<<""<<i<<"\tX\t"<<numero<<"\t=\t"<<tot<<"\t|"<<endl<<"|";
+          }
+          cout<<"---------------------------------------|"<<endl;
+
+      }
+  
+```
+## Explanation of the code function
+The program asks to take a number for a multiplication table
+<ol>
+<li>From the beginning the program will ask for the number to multiply and the length
+<li>The program will multiply the number entered by each of the numbers contained in the numerical series of the length entered
+<li>The program will display the result as a multiplication table
+</ol>
+
+## Tests with all cases
+<ol>
+<li>Single case
+    <div align="center">
+    <img src="UP210908_CPP/../../imagenes/imagentb.jpg"/>
+    </div>
+</ol>
