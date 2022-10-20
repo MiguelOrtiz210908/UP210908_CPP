@@ -49,10 +49,10 @@ int main()
 
     // Print table header
     imprimirlinea();
-    cout << "| Interdor \t| a \t| b \t| c \t| y(a)\t| y(b)\t| y(c)\t| \n";
+    cout << "| Interdor \t| a \t\t\t| b \t\t\t| c \t\t\t| y(a)\t\t\t| y(b)\t\t\t| y(c)\t\t\t| \n";
     imprimirlinea();
 
-    while (yc >= 0.01 || yc <= -0.01)
+    while (yc >= -0.01 || yc <= 0.01)
     {
         // Obtain point c and Y(a), Y(b), Y(c)
         c = (a + b) / 2;
