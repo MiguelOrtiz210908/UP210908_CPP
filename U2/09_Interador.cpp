@@ -1,10 +1,6 @@
 
 
 
-
-
-
-
 #include <iostream>
 #include <cmath>
 
@@ -19,7 +15,6 @@ int lineas(){
         cout<<"-";
     }
     return 0;
-
 }
 
 int main(){
