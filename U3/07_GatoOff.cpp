@@ -26,7 +26,7 @@ int seleccionarJugada(){
     return tiro;
 
 }
-
+/*
 int elegirGanador(char juego[3][3]){
     if(juego[0][0]=='x' || juego[0][0]=='0'){
         if (juego[0][0]==juego[0][1] && juego[0][0]==juego[0][2]){
@@ -112,7 +112,7 @@ int elegirGanador(char juego[3][3]){
     }
     return 2;
 }
-
+*/
 
 bool comprobarCasillaOcupada(int jugada)
 {
@@ -297,7 +297,7 @@ int main(){
             cout<<"\tHazlo otra vez, la casilla esta ocupada :("<<endl;
         }
     } while (casillaOcupada==false);
-        
+
     } while (casillaOcupada==true);
     
     
