@@ -26,93 +26,79 @@ int seleccionarJugada(){
     return tiro;
 
 }
-/*
-int elegirGanador(char juego[3][3]){
+
+bool elegirGanador(char juego[3][3]){
     if(juego[0][0]=='x' || juego[0][0]=='0'){
         if (juego[0][0]==juego[0][1] && juego[0][0]==juego[0][2]){
-            if(juego[0][0]=='0'){
-                return 0;
-            }
+                return true;
+            }    
             else
             {
-                return 1;
+                return false;
             }
             
-        }
         if (juego[0][0]==juego[1][0] && juego[0][0]==juego[2][0]){
-            if(juego[0][0]=='0'){
-                return 0;
-            }
+                return true;
+            }    
             else
             {
-                return 1;
+                return false;
             }
             
-        }
     }
     if (juego[1][1]=='0' || juego[1][1]=='x'){
             if(juego[1][1]==juego[0][0] && juego[1][1]==juego[2][2]){
-                if(juego[1][1]=='0'){
-                return 0;
-                }
-                else
-                {
-                    return 1;
-                }
+                return true;
+            }
+            else
+            {
+                return false;
             }
             if(juego[1][1]==juego[1][0] && juego[1][1]==juego[1][2]){
                 if(juego[1][1]=='0'){
-                return 0;
+                    return true;
                 }
                 else
                 {
-                    return 1;
+                    return false;
                 }
             }
             if(juego[1][1]==juego[2][0] && juego[1][1]==juego[0][2]){
-                if(juego[1][1]=='0'){
-                return 0;
-                }
+                    return true;
+                }    
                 else
                 {
-                    return 1;
+                    return false;
                 }
-            }
             if(juego[1][1]==juego[0][1] && juego[1][1]==juego[2][1]){
-                if(juego[1][1]=='0'){
-                return 0;
-                }
+                    return true;
+            }    
                 else
                 {
-                    return 1;
+                    return false;
                 }
-            }
     }
     if(juego[2][2]=='x' || juego[2][2]=='0'){
         if (juego[2][2]==juego[2][0] && juego[2][2]==juego[2][1]){
-            if(juego[2][2]=='0'){
-                return 0;
-            }
+                return true;
+            }    
             else
             {
-                return 1;
+                return false;
             }
             
-        }
         if (juego[2][2]==juego[0][2] && juego[2][2]==juego[1][2]){
-            if(juego[2][2]=='0'){
-                return 0;
-            }
+                return true;
+            }    
             else
             {
-                return 1;
+                return false;
             }
             
-        }
+        
     }
-    return 2;
 }
-*/
+
 
 bool comprobarCasillaOcupada(int jugada)
 {
@@ -299,10 +285,6 @@ int main(){
     } while (casillaOcupada==false);
 
     } while (casillaOcupada==true);
-    
-    
-    
-    
 
     return 0;
 }
