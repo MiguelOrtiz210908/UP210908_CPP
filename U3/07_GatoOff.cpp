@@ -27,77 +27,35 @@ int seleccionarJugada(){
 
 }
 
-bool elegirGanador(char juego[3][3]){
-    if(juego[0][0]=='x' || juego[0][0]=='0'){
-        if (juego[0][0]==juego[0][1] && juego[0][0]==juego[0][2]){
-                return true;
-            }    
-            else
-            {
-                return false;
-            }
-            
-        if (juego[0][0]==juego[1][0] && juego[0][0]==juego[2][0]){
-                return true;
-            }    
-            else
-            {
-                return false;
-            }
-            
+bool revisarGanador(int jugada){
+    int punto = 0;
+    bool revisarGanador = false;
+    for (int posicion = 0; posicion < 3; posicion++)
+    {
+        if ((areaJuego[0][posicion] == areaJuego[1][posicion]) && (areaJuego[0][posicion] == areaJuego[2][posicion]))
+        {
+            revisarGanador = true;
+            break;
+        }
+        else if ((areaJuego[posicion][0] == areaJuego[posicion][1]) && (areaJuego[posicion][0] == areaJuego[posicion][2]))
+        {
+            revisarGanador = true;
+            break;
+        }
+        else if ((areaJuego[posicion][posicion] == areaJuego[posicion+1][posicion+1]) && (areaJuego[posicion][posicion] == areaJuego[posicion+2][posicion+2]))
+        {
+            revisarGanador = true;
+            break;
+        }
+        else if ((areaJuego[2][0] == areaJuego[1][1]) && (areaJuego[2][0] == areaJuego[0][2]))
+        {
+            revisarGanador = true;
+            break;
+        }
     }
-    if (juego[1][1]=='0' || juego[1][1]=='x'){
-            if(juego[1][1]==juego[0][0] && juego[1][1]==juego[2][2]){
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-            if(juego[1][1]==juego[1][0] && juego[1][1]==juego[1][2]){
-                if(juego[1][1]=='0'){
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            if(juego[1][1]==juego[2][0] && juego[1][1]==juego[0][2]){
-                    return true;
-                }    
-                else
-                {
-                    return false;
-                }
-            if(juego[1][1]==juego[0][1] && juego[1][1]==juego[2][1]){
-                    return true;
-            }    
-                else
-                {
-                    return false;
-                }
-    }
-    if(juego[2][2]=='x' || juego[2][2]=='0'){
-        if (juego[2][2]==juego[2][0] && juego[2][2]==juego[2][1]){
-                return true;
-            }    
-            else
-            {
-                return false;
-            }
-            
-        if (juego[2][2]==juego[0][2] && juego[2][2]==juego[1][2]){
-                return true;
-            }    
-            else
-            {
-                return false;
-            }
-            
-        
-    }
+    return revisarGanador;
 }
+   
 
 
 bool comprobarCasillaOcupada(int jugada)
@@ -261,7 +219,7 @@ void tableroGato(){
 int main(){
 
     int jugada, juego=0;
-    bool casillaOcupada=true;
+    bool casillaOcupada=true, winner=false;
 
     
     do
@@ -273,16 +231,31 @@ int main(){
         casillaOcupada= comprobarCasillaOcupada(jugada);
         if (casillaOcupada==false)  
         {
+            
+            winner=revisarGanador(winner);
             colocarjugada(jugada);
-            system("clear");
+            system("clear");        
         }
-        else
+        else if(casillaOcupada==true)
         {
             system("clear");
             cout<<"\033[0;31m"<<"Atencion:"<<"\033[0m"<<endl;
             cout<<"\tHazlo otra vez, la casilla esta ocupada :("<<endl;
         }
-    } while (casillaOcupada==false);
+    } while (casillaOcupada==false && turnojugador<9);
+    winner=revisarGanador(winner);
+    if (turnojugador<10){
+    if (turnojugador % 2 == 0)
+    {
+        cout << "Gano el jugador 2\n";
+    }
+    else
+    {
+        cout << "Gano el jugador 1\n";
+    }
+    } else{
+        cout << "Empate\n";
+    }
 
     } while (casillaOcupada==true);
 
