@@ -7,16 +7,16 @@
  
 <h2>INDEX:</h2> 
   
->### [Execution](#Execution  instructions:) 
->### [Flowchart](#Flowchart)  
->### [Playtest](#Playtest)  
->### [Advantages and limitations](#Advantages)  
+[Execution](#Execution  instructions) 
+[Flowchart](#Flowchart)  
+[Playtest](#Playtest)  
+[Advantages and limitations](#Advantages)  
 
   
 
    
 <div align="center">
-<h2>Execution instructions:</h2>
+<h2>Execution instructions</h2>
   Before you start playing, you must first make sure to perform the following steps for a correct execution of the game
 </div align="center">
 
