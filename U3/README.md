@@ -3,20 +3,20 @@
 <h1> TIC TAC TOE GAME </h1>
 
 <img src="../imagenes/gatoimagen1.png" height="250" width="250"> 
- <div align = "justify">
+</div align="center">
  
 <h2>INDEX:</h2> 
-
->### [Execution and considerations](#Execution instructions)  
->### [Flowchart](#Flowchart)  
->### [Game explanation](#Playtest)  
->### [Advantages and limitations](#Advantages)  
-</div>
   
-</div align="center">
+>### [Execution](#Execution  instructions:) 
+>### [Flowchart](#Flowchart)  
+>### [Playtest](#Playtest)  
+>### [Advantages and limitations](#Advantages)  
+
+  
+
    
 <div align="center">
-  <h2>Execution instructions</h2>
+<h2>Execution instructions:</h2>
   Before you start playing, you must first make sure to perform the following steps for a correct execution of the game
 </div align="center">
 
