@@ -53,6 +53,23 @@
 <div align="center">
 
  <h2>Flowchart</h2>
-<img src="../imagenes/.png" align="center">
+<img src="../imagenes/diagrama.png" align="center">
  
+ <h2>Playtest</h2>
 </div align="center">
+
+In the next section we can show how the game works, in this case the game mode <b>Player vs. Computer</b> is shown.
+
+<ol>
+<li> The first thing we can see on the screen is the menu, which will give us options to choose the game mode
+     <img src="../imagenes/diagrama.png" align="center">
+<li>
+
+
+
+
+
+
+</ol>
+
+
