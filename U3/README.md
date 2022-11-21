@@ -7,9 +7,9 @@
  
 <h2>INDEX:</h2> 
   
-[Flowchart](#Flowchart)  
-[Playtest](#Playtest)  
-[Advantages and limitations](#Advantages)  
+### [Flowchart](#Flowchart)  
+### [Playtest](#Playtest)  
+### [Advantages and limitations](#Advantages)  
 
    
 <div align="center">
