@@ -7,12 +7,9 @@
  
 <h2>INDEX:</h2> 
   
-[Execution](#Execution  instructions) 
 [Flowchart](#Flowchart)  
 [Playtest](#Playtest)  
 [Advantages and limitations](#Advantages)  
-
-  
 
    
 <div align="center">
