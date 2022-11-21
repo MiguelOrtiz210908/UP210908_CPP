@@ -44,11 +44,11 @@
 
 3. To compile this program, type:
 
-       gcc 04_Gato.c -o 04_Gato
+       gcc 05_JuegoGato.c -o 05_JuegoGato
 
 4. To run this program, type:
    
-       ./04_Gato
+       ./05_JuegoGato
 
 <div align="center">
 
@@ -62,13 +62,29 @@ In the next section we can show how the game works, in this case the game mode <
 
 <ol>
 <li> The first thing we can see on the screen is the menu, which will give us options to choose the game mode
-     <img src="../imagenes/diagrama.png" align="center">
-<li>
-
-
-
-
-
+     <div align="center">
+     <img src="../imagenes/Screengato1.png">
+     </div>
+<li>In this case we choose option two. Following this, we will obtain the second section that makes up the program, which asks us for the position number in which our move will be positioned.
+     <div align="center">
+     <img src="../imagenes/Screengato2.png">
+ </div>
+ <li>The first move I make is to take position 1, the PC responds by taking position 8.
+     <div align="center">
+     <img src="../imagenes/Screengato3.png">
+      </div>
+<li>The second move I make is to take position 3 with the aim of winning, the PC quickly intercepts position 2 to avoid it.
+     <div align="center">
+     <img src="../imagenes/Screengato4.png">
+      </div>
+<li>Then I placed myself in position 5 leaving me with two chances to win and the PC with no other option placed in position 7.      
+     <div align="center">
+     <img src="../imagenes/Screengato5.png">
+      </div>
+<li>I finally finish winning the game taking the ninth position
+     <div align="center">
+     <img src="../imagenes/Screengato6.png">
+      </div>   
 
 </ol>
 
