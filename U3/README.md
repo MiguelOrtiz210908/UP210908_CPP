@@ -2,8 +2,16 @@
 
 <h1> TIC TAC TOE GAME </h1>
 
-<img src="../imagenes/gatoimagen1.png" height="250" width="250">
- <h2>INDEX:</h2>  
+<img src="../imagenes/gatoimagen1.png" height="250" width="250"> 
+ <div align = "justify">
+ 
+<h2>INDEX:</h2> 
+
+>### [Execution and considerations](Execution instructions)  
+>### [Flowchart](Flowchart)  
+>### [Game explanation](Playtest)  
+>### [Advantages and limitations](Advantages)  
+</div>
   
 </div align="center">
    
@@ -25,11 +33,11 @@
 
 4. To compile use command:
 
-       gcc  04_Gato.cpp -o 04_Gato.exe
+       gcc  05_JuegoGato.cpp -o 05_JuegoGato.exe
 
 5. To run type this code:
 
-       04_Gato.exe
+       05_JuegoGato.exe
 
 <h2> For Linux (Ubuntu)</h2>
 
@@ -85,7 +93,12 @@ In the next section we can show how the game works, in this case the game mode <
      <div align="center">
      <img src="../imagenes/Screengato6.png">
       </div>   
-
 </ol>
+
+<h2>Advantages</h2>
+
+When making the program, the truth was a challenge, since it implied implementing a logic with functions, which is something that I have not trained much, in the end I was able to do it with the help of information sources and mainly trial and error for the operation of the program.
+The program helped me a lot to grow and learn in this world of programming because I learned a lot of new functions and above all I developed a new logic.
+
 
 
