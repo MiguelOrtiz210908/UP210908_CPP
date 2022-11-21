@@ -57,13 +57,15 @@
 4. To run this program, type:
    
        ./05_JuegoGato
-
+       
+[Return to index](#index)
 <div align="center">
 
- <h2>Flowchart</h2>
+<h2>Flowchart</h2>
 <img src="../imagenes/diagrama.png" align="center">
  
- <h2>Playtest</h2>
+[Return to index](#index)
+<h2>Playtest</h2>
 </div align="center">
 
 In the next section we can show how the game works, in this case the game mode <b>Player vs. Computer</b> is shown.
@@ -95,10 +97,11 @@ In the next section we can show how the game works, in this case the game mode <
       </div>   
 </ol>
 
+[Return to index](#index)
 <h2>Advantages</h2>
 
 When making the program, the truth was a challenge, since it implied implementing a logic with functions, which is something that I have not trained much, in the end I was able to do it with the help of information sources and mainly trial and error for the operation of the program.
 The program helped me a lot to grow and learn in this world of programming because I learned a lot of new functions and above all I developed a new logic.
 
-
+[Return to index](#index)
 
